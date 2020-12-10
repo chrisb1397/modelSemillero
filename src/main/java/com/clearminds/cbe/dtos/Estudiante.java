@@ -16,7 +16,7 @@ public class Estudiante {
 
 	
 
-	public Estudiante(String nombre, String apellido) {
+	public Estudiante(String nombre, String apellido, String fechaModificacion) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -25,6 +25,10 @@ public class Estudiante {
 	public Estudiante() {
 		
 	}
+
+
+
+
 
 	@Override
 	public String toString() {
